@@ -1,0 +1,12 @@
+{
+  "name": "@voidpkg/discord-multiple-clients",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc && npm run copy:files",
+    "copy:files": "cpx \"README.md\" \"dist\"",
+    "test": "ts-node-dev ./test/index.spec.ts"
+  },
+  "author": "Void Development <support@voiddevs.org>",
+  "license": "MIT"
+}
